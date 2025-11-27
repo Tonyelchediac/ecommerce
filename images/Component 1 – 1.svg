@@ -1,0 +1,30 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="1600" height="368" viewBox="0 0 1600 368">
+  <rect id="Rectangle_47" data-name="Rectangle 47" width="800" height="368" fill="#fbfbfb"/>
+  <rect id="Rectangle_66" data-name="Rectangle 66" width="800" height="368" transform="translate(800)" fill="#f3f3f3"/>
+  <text id="Subscribe" transform="translate(1026.165 121)" font-size="46" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-104" y="0">Subscribe</tspan></text>
+  <text id="MEN" transform="translate(152 118)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">MEN</tspan></text>
+  <text id="WOMEN" transform="translate(152 152)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">WOMEN</tspan></text>
+  <text id="email" transform="translate(921.165 182)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">EMAIL</tspan></text>
+  <text id="all_rights_reserved.2022_by_koein" data-name="all rights reserved.2022
+by koein" transform="translate(1448.5 275)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-145" y="0">ALL RIGHTS RESERVED.2022</tspan><tspan x="-49" y="15">BY KOEIN</tspan></text>
+  <text id="COLLECTIONS" transform="translate(152 187)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">COLLECTIONS</tspan></text>
+  <text id="NEW" transform="translate(152 83)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">NEW</tspan></text>
+  <text id="ABOUT" transform="translate(152 221)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">ABOUT</tspan></text>
+  <text id="CONTACT" transform="translate(152 256)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">CONTACT</tspan></text>
+  <text id="MY_ACCOUNT" data-name="MY ACCOUNT" transform="translate(151 290)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">MY ACCOUNT</tspan></text>
+  <text id="Returns_Refunds_Store_Credits" data-name="Returns, Refunds &amp; Store Credits" transform="translate(284 256)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">RETURNS, REFUNDS &amp; STORE CREDITS</tspan></text>
+  <text id="Gift_Card" data-name="Gift Card" transform="translate(286 83)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">GIFT CARD</tspan></text>
+  <text id="PRIVACY_POLICY" data-name="PRIVACY POLICY" transform="translate(284 187)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">PRIVACY POLICY</tspan></text>
+  <text id="Referrers_Tracking_Commission" data-name="Referrers Tracking &amp; Commission" transform="translate(284 290)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">REFERRERS TRACKING &amp; COMMISSION</tspan></text>
+  <text id="Cookies_Policy" data-name="Cookies Policy" transform="translate(284 153)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">COOKIES POLICY</tspan></text>
+  <text id="Store_Locator" data-name="Store Locator" transform="translate(283 118)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">STORE LOCATOR</tspan></text>
+  <text id="Terms_Conditions" data-name="Terms &amp; Conditions" transform="translate(283 221)" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">TERMS &amp; CONDITIONS</tspan></text>
+  <line id="Line_16" data-name="Line 16" x2="527.335" transform="translate(921.665 201.25)" fill="none" stroke="#000" stroke-width="2"/>
+  <path id="Icon_awesome-long-arrow-alt-left" data-name="Icon awesome-long-arrow-alt-left" d="M12.924,13.1H.227A.227.227,0,0,1,0,12.869V11.81a.227.227,0,0,1,.227-.227h12.7v-.871a.454.454,0,0,1,.775-.321l1.627,1.627a.454.454,0,0,1,0,.642L13.7,14.287a.454.454,0,0,1-.775-.321Z" transform="translate(1433.042 165.742)"/>
+  <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(921.165 269)">
+    <path id="Path_4" data-name="Path 4" d="M7.125,3h8.25A4.125,4.125,0,0,1,19.5,7.125v8.25A4.125,4.125,0,0,1,15.375,19.5H7.125A4.125,4.125,0,0,1,3,15.375V7.125A4.125,4.125,0,0,1,7.125,3Z" transform="translate(-3 -3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_5" data-name="Path 5" d="M18.629,14.751a3.3,3.3,0,1,1-2.78-2.78,3.3,3.3,0,0,1,2.78,2.78Z" transform="translate(-7.079 -7.021)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_6" data-name="Path 6" d="M26.25,9.75h0" transform="translate(-13.462 -6.037)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+  <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M9.685,9.077l.448-2.92h-2.8v-1.9A1.46,1.46,0,0,1,8.978,2.684h1.274V.2A15.534,15.534,0,0,0,7.99,0,3.565,3.565,0,0,0,4.175,3.931V6.156H1.609v2.92H4.175v7.06H7.331V9.077Z" transform="translate(970.834 269)"/>
+</svg>

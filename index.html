@@ -1,59 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Footer Example</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="act ecommerce website">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
 </head>
+
 <body>
-
-  <footer class="footer">
-    <div class="footer-container">
-      <!-- Left Section -->
-      <div class="footer-links">
-        <ul>
-          <li><a href="#">NEW</a></li>
-          <li><a href="#">MEN</a></li>
-          <li><a href="#">WOMEN</a></li>
-          <li><a href="#">COLLECTIONS</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">MY ACCOUNT</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">GIFT CARD</a></li>
-          <li><a href="#">STORE LOCATOR</a></li>
-          <li><a href="#">COOKIES POLICY</a></li>
-          <li><a href="#">PRIVACY POLICY</a></li>
-          <li><a href="#">TERMS & CONDITIONS</a></li>
-          <li><a href="#">RETURNS, REFUNDS & STORE CREDITS</a></li>
-          <li><a href="#">REFERRERS TRACKING & COMMISSION</a></li>
-        </ul>
-      </div>
-
-      <!-- Right Section -->
-      <div class="footer-subscribe">
-        <h2>Subscribe</h2>
-        <form class="subscribe-form">
-          <label for="email">EMAIL</label>
-          <div class="input-wrapper">
-            <input type="email" id="email" placeholder="">
-            <button type="submit">→</button>
-          </div>
-        </form>
-        <div class="socialmedia-and-copyright">
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-          </div>
-          <p class="copyright">ALL RIGHTS RESERVED.2022<br>BY KOEIN</p>
+ 
+    <!-- header -->
+    <header class="header">
+        <!-- header top -->
+        <div class="header-1">
+            <div class="left">
+            <img src="images/noun-shipping-5125530.svg" alt=""> 
+               <p>GET FREE SHIPPING ON ORDERS ABOVE 200 USD</p>
+            </div>
+            <div class="right">
+                <a href="#"><img src="./images/noun-store-5320839.svg" alt="">STORES</a>
+                <a href="#">NEWSLETTER</a>
+                <a href="about.html">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#">GIFTCARD</a>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+        <!-- header bottom -->
+        <div class="header-2">
+            <div class="hamburger">
+                <img id="HAMBURGER" src="./images/Group 33.svg" alt="">
+                <img src="images/noun-bag-1665853.svg" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="">NEW</a></li>
+                    <li><a href="">MEN</a></li>
+                    <li><a href="women.html">WOMEN</a></li>
+                    <li><a href="">COLLECTIONS</a></li>
+                    <li><a href="" class="sale">SALE</a></li>
+                </ul>
+            </div>
+            <div class="logo">act</div>
+            <div class="more">
+                <div class="icons">
+                    <img src="images/noun-bag-1665853.svg" alt="">
+                    <img src="./images/Icon feather-user.svg" alt="">
+                    <img src="./images/Icon feather-heart.svg" alt="">
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Search" name="search" id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- responsive navbar -->
+        <section id="responsive-header">
+            <div class="responsive-header-container">
+                <!-- close and social buttons -->
+                <div class="control-content">
+                    <div class="profile-and-heart">
+                        <img src="./images/Icon feather-user.svg" alt="">
+                        <img src="./images/Icon feather-heart.svg" alt="">
+                    </div>
+                    <img src="./images/Icon ionic-ios-close.svg" id="HAMBURGER-X" alt="">
+                </div>
+                <!-- nav -->
+                <div class="nav">
+                    <ul>
+                        <li><a href="">NEW</a></li>
+                        <li><a href="">MEN</a></li>
+                        <li><a href="women.html">WOMEN</a></li>
+                        <li><a href="">COLLECTIONS</a></li>
+                        <li><a href="" class="sale">SALE</a></li>
+                    </ul>
+                </div>
+                <!-- header-1 right -->
+                <div class="right">
+                    <a href="#"><img src="./images/noun-store-5320839.svg" alt="">STORES</a>
+                    <a href="#">NEWSLETTER</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#">GIFTCARD</a>
+                </div>
+                <!-- policy content -->
+                <div class="policy-content">
+                    <ul>
+                        <li><a href="#">COOKIES POLICY</a></li>
+                        <li><a href="#">PRIVACY POLICY</a></li>
+                        <li><a href="#">TERMS & CONDITIONS</a></li>
+                        <li><a href="#">RETURNS, REFUNDS & STORE CREDITS</a></li>
+                        <li><a href="#">REFERRERS TRACKING & COMMISSION</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <!-- home section -->
+    <section id="HOME" class="home">
+        <div class="img-wrapper">
+            <img src="./images/Mask Group 1.png" alt="img 1">
+            <div class="home-content">
+                <p>Women</p>
+                <div class="content-links">
+                    <a href="">Clothing</a>
+                    <a href="">Shoes</a>
+                    <a href="">Accessories</a>
+                </div>
+                <div class="shopall-btn">
+                    <a href="">SHOP ALL</a>
+                </div>
+            </div>
+        </div>
+        <div class="img-wrapper">
+            <img src="./images/Mask Group 35.png" alt="img 2">
+            <div class="home-content">
+                <p>Men</p>
+                <div class="content-links">
+                    <a href="">Clothing</a>
+                    <a href="">Shoes</a>
+                    <a href="">Accessories</a>
+                </div>
+                <div class="shopall-btn">
+                    <a href="">SHOP ALL</a>
+                </div>
+            </div>
+        </div>
+        <div class="img-wrapper">
+            <img src="./images/Mask Group 36.png" alt="img 3">
+            <div class="home-content">
+                <p>New</p>
+                <div class="content-links">
+                    <a href="">Clothing</a>
+                    <a href="">Shoes</a>
+                    <a href="">Accessories</a>
+                </div>
+                <div class="shopall-btn">
+                    <a href="">SHOP ALL</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- new in women -->
+    <section id="newInWomen">
+        <div class="container">
+            <h2 class="title">New in Women</h2>
+            <div class="content">
+                <div class="content-img-des">
+                    <img src="./images/Mask Group 3.png" alt="item">
+                    <p class="text">MARC KAIN<br>"RETHINK TOGETHER" SHOULDER BAG</p>
+                    <p class="price">510 USD</p>
+                </div>
+                <div class="content-img-des">
+                    <img src="./images/9678888566814.png" alt="item">
+                    <p class="text">MARC KAIN<br>"RETHINK TOGETHER" SHOULDER BAG</p>
+                    <p class="price">510 USD</p>
+                </div>
+                <div class="content-img-des">
+                    <img src="./images/9658607730718.png" alt="item">
+                    <p class="text">MARC KAIN<br>"RETHINK TOGETHER" SHOULDER BAG</p>
+                    <p class="price">510 USD</p>
+                </div>
+                <div class="content-img-des">
+                    <img src="./images/9655629873182.png" alt="item">
+                    <p class="text">MARC KAIN<br>"RETHINK TOGETHER" SHOULDER BAG</p>
+                    <p class="price">510 USD</p>
+                </div>
+            </div>
+            <div class="dots">
+                <div class="dot" style="background-color: black;"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+        <div class="content-2">
+            <div class="content-img-tit">
+                <img src="./images/Copy (74).png" alt="item">
+                <p class="text">As seen on</p>
+            </div>
+            <div class="content-img-tit">
+                <img src="./images/Copy (73).png" alt="item">
+                <p class="text">Bags</p>
+            </div>
+            <div class="content-img-tit">
+                <img src="./images/Mask Group 30.png" alt="item">
+                <p class="text">2022 Trends</p>
+            </div>
+            <div class="content-img-tit">
+                <img src="./images/Copy (68).png" alt="item">
+                <p class="text">Our pick</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4th section -->
+    <section id="fthsec" class="fth-section">
+        <div class="fth-container">
+            <div class="img-i">
+                <img src="./images/Mask Group 28.png" alt="img-1">
+                <div class="img-1-content">
+                    <h2 class="p">Leo meets forest</h2>
+                    <h2 class="pp"><i class="fa-solid fa-arrow-right"></i></h2>
+                </div>
+            </div>
+            <div class="img-i">
+                <img src="./images/Mask Group 27.png" alt="img-1">
+                <div class="img-1-content">
+                    <h2 class="p">Classy Twist</h2>
+                    <h2 class="pp"><i class="fa-solid fa-arrow-right"></i></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- client section -->
+    <section id="clients" class="clients">
+        <div class="clients-container">
+            <img src="./images/Image 22.png" alt="client 1">
+            <img src="./images/Image 23.png" alt="client 2">
+            <img src="./images/Image 24.png" alt="client 3">
+        </div>
+    </section>
+
+    <!-- shop the look -->
+    <section class="shop-the-look">
+        <div class="shop-container">
+            <div class="part1">
+                <img src="./images/Copy (71).png" alt="Main look image" />
+            </div>
+
+            <div class="part2">
+                <h2 class="shop-title">Shop the look</h2>
+                <div class="items">
+                    <div class="item">
+                        <img src="./images/Mask Group 4.png" alt="item" />
+                        <div class="title">MARC KAIN<br>"RETHINK TOGETHER</div>
+                        <div class="price">510 USD</div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/Mask Group 31.png" alt="item" />
+                        <div class="title">MARC KAIN<br>"RETHINK TOGETHER</div>
+                        <div class="price">510 USD</div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/Mask Group 39.png" alt="item" />
+                        <div class="title">MARC KAIN<br>"RETHINK TOGETHER</div>
+                        <div class="price">510 USD</div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/Mask Group 40.png" alt="item" />
+                        <div class="title">MARC KAIN<br>"RETHINK TOGETHER</div>
+                        <div class="price">510 USD</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- new product section -->
+    <section class="new-product">
+        <div class="new-product-container">
+            <h2>123 new product <span>in the last 3 days</span></h2>
+            <a href="">DISCOVER NOW</a>
+        </div>
+    </section>
+
+    <!-- fashion section -->
+    <section class="fashion-section">
+        <div class="fashion-item large">
+            <img src="./images/Copy (38).png" alt="Modern Classics">
+            <p class="caption">MODERN CLASSICS</p>
+        </div>
+        <div class="fashion-item small">
+            <img src="./images/Copy (36).png" alt="Outdoor Boots">
+            <p class="caption">OUTDOOR BOOTS</p>
+        </div>
+    </section>
+
+    <!-- new in men -->
+    <section id="newInWomen">
+        <div class="container">
+            <h2 class="title">New in Men</h2>
+            <div class="content">
+                <div class="content-img-des">
+                    <img src="./images/Mask Group 22.png" alt="item">
+                    <p class="text">MARC KAIN<br>"RETHINK TOGETHER" SHOULDER BAG</p>
+                    <p class="price">510 USD</p>
+                </div>
+                <div class="content-img-des">
+                    <img src="./images/Copy (64).png" alt="item">
+                    <p class="text">MARC KAIN<br>"RETHINK TOGETHER" SHOULDER BAG</p>
+                    <p class="price">510 USD</p>
+                </div>
+                <div class="content-img-des">
+                    <img src="./images/Copy (66).png" alt="item">
+                    <p class="text">MARC KAIN<br>"RETHINK TOGETHER" SHOULDER BAG</p>
+                    <p class="price">510 USD</p>
+                </div>
+                <div class="content-img-des">
+                    <img src="./images/Copy (67).png" alt="item">
+                    <p class="text">MARC KAIN<br>"RETHINK TOGETHER" SHOULDER BAG</p>
+                    <p class="price">510 USD</p>
+                </div>
+            </div>
+            <div class="dots">
+                <div class="dot" style="background-color: black;"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Joop Section -->
+    <section class="fall-collection">
+        <div class="overlay">
+            <img src="./images/Logo-Joop-weiß-min.png" alt="Joop logo" class="joop-logo" />
+            <h2 class="h2-in-overlay">Fall Collection</h2>
+        </div>
+    </section>
+
+
+    <!-- drykorn -->
+    <section id="Drykorn" class="drykorn">
+        <div class="drykorn-text-btn">
+            <img src="./images/Image 24.png" alt="drykorn img">
+            <a href="">SHOP DRYKORN MEN</a>
+        </div>
+        <div class="drykorn-img-content">
+            <div class="drykorn-item">
+                <img src="./images/Mask Group 22.png" alt="item">
+                <div class="title">MARC KAIN<br>"RETHINK TOGETHER</div>
+                <div class="price">510USD</div>
+            </div>
+            <div class="drykorn-item">
+                <img src="./images/Copy (7).png" alt="item">
+                <div class="title">MARC KAIN<br>"RETHINK TOGETHER</div>
+                <div class="price">510USD</div>
+            </div>
+            <div class="drykorn-item">
+                <img src="./images/Copy (8).png" alt="item">
+                <div class="title">MARC KAIN<br>"RETHINK TOGETHER</div>
+                <div class="price">510USD</div>
+            </div>
+            <div class="drykorn-item">
+                <img src="./images/Copy (62).png" alt="item">
+                <div class="title">MARC KAIN<br>"RETHINK TOGETHER</div>
+                <div class="price">510USD</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- marccain section -->
+    <section class="promo-section">
+        <div class="image-container">
+            <div class="logo">
+                <img src="./images/Marc_Cain_Logo_2020.svg.png" alt="">
+            </div>
+        </div>
+        <div class="promo-text">
+            <h1>50% off</h1>
+            <small>Ends November 30</small>
+            <button>SHOP NOW</button>
+        </div>
+    </section>
+
+    <!-- new to act section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2>New to ACT?</h2>
+            <p>Create an account & get 10% off on your first order</p>
+            <a href="#" class="register-button">REGISTER</a>
+        </div>
+    </section>
+
+    <!-- recent categories section-->
+    <section class="recent-categories">
+        <div class="recent-container">
+            <p class="subheading">BROWSE AGAIN</p>
+            <h2>Visit your recent Women's categories</h2>
+            <div class="category-buttons">
+                <a href="#" class="category-button">JACKETS</a>
+                <a href="#" class="category-button">SHOES</a>
+                <a href="#" class="category-button">ACCESSORIES</a>
+                <a href="#" class="category-button">BAGS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- more info -->
+    <section class="moreinfo">
+        <div class="info">
+            <img src="./images/noun-shipping-5125530.svg" alt="truck">
+            <p>FAST DELIVERY</p>
+        </div>
+        <div class="info">
+            <img src="./images/noun-quality-3266342.svg" alt="quality">
+            <p>STYLE GUARANTEED</p>
+        </div>
+        <div class="info">
+            <img src="./images/Icon feather-map-pin.svg" alt="location">
+            <p>LOCATE US TODAY</p>
+        </div>
+    </section>
+
+    <!-- link -->
+    <section class="links">
+        <p class="link">@apparelcontemporarystore</p>
+    </section>
+
+    <!-- images section -->
+    <section class="images-section">
+        <img src="./images/NoPath.png" alt="image1">
+        <img src="./images/Copy.png" alt="image2">
+        <img src="./images/Copy (2).png" alt="image3">
+        <img src="./images/Copy (3).png" alt="image4">
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Left Section -->
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">COLLECTIONS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">MY ACCOUNT</a></li>
+                    </ul>
+                </div>
+                <ul>
+                    <li><a href="#">GIFT CARD</a></li>
+                    <li><a href="#">STORE LOCATOR</a></li>
+                    <li><a href="#">COOKIES POLICY</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">TERMS & CONDITIONS</a></li>
+                    <li><a href="#">RETURNS, REFUNDS & STORE CREDITS</a></li>
+                    <li><a href="#">REFERRERS TRACKING & COMMISSION</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Section -->
+            <div class="footer-subscribe">
+                <h2>Subscribe</h2>
+                <form class="subscribe-form">
+                    <label for="email">EMAIL</label>
+                    <div class="input-wrapper">
+                        <input type="email" id="email" placeholder="">
+                        <button type="submit">→</button>
+                    </div>
+                </form>
+                <div class="socialmedia-and-copyright">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <p class="copyright">ALL RIGHTS RESERVED.2022<br>BY KOEIN</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 
 </body>
+
 </html>

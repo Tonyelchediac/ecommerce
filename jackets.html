@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="act ecommerce website">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOMEN</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/shoppingBg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/shoppingBag.js" defer></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <!-- header top -->
+        <div class="header-1">
+            <div class="left">
+                <img src="images/noun-shipping-5125530.svg" alt="">
+                <p>GET FREE SHIPPING ON ORDERS ABOVE 200 USD</p>
+            </div>
+            <div class="right">
+                <a href="#"><img src="./images/noun-store-5320839.svg" alt="">STORES</a>
+                <a href="#">NEWSLETTER</a>
+                <a href="about.html">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#">GIFTCARD</a>
+            </div>
+        </div>
+        <!-- header bottom -->
+        <div class="header-2">
+            <div class="hamburger">
+                <img id="HAMBURGER" src="./images/Group 33.svg" alt="">
+                <img id="shopcontent" src="images/noun-bag-1665853.svg" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="">NEW</a></li>
+                    <li><a href="">MEN</a></li>
+                    <li><a href="women.html">WOMEN</a></li>
+                    <li><a href="">COLLECTIONS</a></li>
+                    <li><a href="" class="sale">SALE</a></li>
+                </ul>
+            </div>
+            <div class="logo">act</div>
+            <div class="more">
+                <div class="icons">
+                    <div class="bag-icon-wrapper" id="bagToggle">
+                        <img id="bag-icon" src="images/noun-bag-1665853.svg" alt="Bag Icon" />
+                        <span class="bag-count">2</span>
+                    </div>
+                    <img src="./images/Icon feather-user.svg" alt="">
+                    <img src="./images/Icon feather-heart.svg" alt="">
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Search" name="search" id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- header 3 -->
+        <div class="third-header" style="border-bottom: 0.5px solid #f1f1f1;">
+            <div class="secondary-nav">
+                <ul>
+                    <li>New</li>
+                    <li id="clothingDropdown" style="font-weight: bold;">Clothing
+                        <div class="dc-dropdown">
+                            <div class="dropdown-p one">
+                                <div class="dropdown-div-title">Clothing</div>
+                                <div class="dropdown-div-content-div">
+                                    <div class="dropdown-div-content">
+                                        <ul>
+                                            <li>Blazer</li>
+                                            <li>Blouses & Tunics</li>
+                                            <li>Business Combinations</li>
+                                            <li>Pants</li>
+                                            <li>Jackets</li>
+                                            <li>Jeans</li>
+                                            <li>Jumpsuits</li>
+                                            <li>Dresses</li>
+                                            <li>Coats</li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-div-content">
+                                        <ul>
+                                            <li>Skirts</li>
+                                            <li>Shirt</li>
+                                            <li>Sportswear</li>
+                                            <li>Rope</li>
+                                            <li>Socks</li>
+                                            <li>Sweatshirts & Sweat Jackets</li>
+                                            <li>Costumes</li>
+                                            <li>Laundry</li>
+                                            <li>West</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-p two">
+
+                                <div class="tands">
+                                    <div class="dropdown-div-title">Top Brands</div>
+                                    <div class="dropdown-div-content">
+                                        <ul>
+                                            <li>MARCCAIN</li>
+                                            <li>JOOP</li>
+                                            <li>DRYKORN</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="tands">
+                                    <div class="dropdown-div-title">Top Brands</div>
+                                    <div class="dropdown-div-content">
+                                        <ul>
+                                            <li>Call It Pink!</li>
+                                            <li>Classy Twist</li>
+                                            <li>Through Girls!</li>
+                                            <li>Soft Power</li>
+                                            <li>Leo Meets Forest</li>
+                                            <li>New Chili Club</li>
+                                            <li>New Black & Light</li>
+                                            <li>New Comfy Softness</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="dropdown-p three">
+                                <div class="ts">
+                                    <img src="./images/Copy (4).png" alt="winter looks">
+                                    <p>WINTER LOOK</p>
+                                </div>
+                                <div class="ts">
+                                    <img src="./images/Copy.png" alt="bestsellers">
+                                    <p>BESTSELLERS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>Shoes</li>
+                    <li>Jewelry</li>
+                    <li>Accessories</li>
+                    <li>Sports</li>
+                    <li>Sale</li>
+                    <li>Brands</li>
+                    <li>Fall Season</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- responsive navbar -->
+        <section id="responsive-header">
+            <div class="responsive-header-container">
+                <!-- close and social buttons -->
+                <div class="control-content">
+                    <div class="profile-and-heart">
+                        <img src="./images/Icon feather-user.svg" alt="">
+                        <img src="./images/Icon feather-heart.svg" alt="">
+                    </div>
+                    <img src="./images/Icon ionic-ios-close.svg" id="HAMBURGER-X" alt="">
+                </div>
+                <!-- nav -->
+                <div class="nav">
+                    <ul>
+                        <li><a href="">NEW</a></li>
+                        <li><a href="">MEN</a></li>
+                        <li class="women-html"><a href="women.html">WOMEN</a>
+                            <section class="women-nav">
+                                <div class="header-women-dropdown">
+                                    <img src="./images/Icon ionic-ios-arrow-back.svg" alt="back icon"
+                                        onclick="document.querySelector('.women-nav').style.display = 'none';">
+                                    <p class="text-p-header-women">WOMEN</p>
+                                </div>
+                                <div class="content-women-dropdown">
+                                    <ul>
+                                        <li>New</li>
+                                        <li class="clothing-html">Clothing</li>
+                                        <li>Shoes</li>
+                                        <li>Jewelry</li>
+                                        <li>Accessories</li>
+                                        <li>Sports</li>
+                                        <li>Sale</li>
+                                        <li>Brands</li>
+                                        <li>Fall Season</li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </li>
+                        <li><a href="">COLLECTIONS</a></li>
+                        <li><a href="" class="sale">SALE</a></li>
+                    </ul>
+                </div>
+                <!-- header-1 right -->
+                <div class="right">
+                    <a href="#"><img src="./images/noun-store-5320839.svg" alt="">STORES</a>
+                    <a href="#">NEWSLETTER</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#">GIFTCARD</a>
+                </div>
+                <!-- policy content -->
+                <div class="policy-content">
+                    <ul>
+                        <li><a href="#">COOKIES POLICY</a></li>
+                        <li><a href="#">PRIVACY POLICY</a></li>
+                        <li><a href="#">TERMS & CONDITIONS</a></li>
+                        <li><a href="#">RETURNS, REFUNDS & STORE CREDITS</a></li>
+                        <li><a href="#">REFERRERS TRACKING & COMMISSION</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="mainjackets">
+        <section class="section1">
+            <div class="backbuttons">
+                <div class="backbuttonandname">
+                    <a href="women.html">
+                        <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        Back to Women
+                    </a>
+                </div>
+                <div class="backbuttonandname">
+                    <a href="#">
+                        <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        Back to clothing
+                    </a>
+                </div>
+                <div class="backbuttonandname">
+                    <a href="#">
+                        <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        Back to jackets
+                    </a>
+                </div>
+            </div>
+
+            <!-- sort by -->
+            <section class="filter" id="filter">
+
+                <div class="ftrr">
+                    <p class="text-p-header-women">FILTER</p>
+                    <img src="./images/Icon ionic-ios-close.svg" alt="back icon"
+                        onclick="document.querySelector('.filter').style.display = 'none';">
+                </div>
+
+                <section class="sortby">
+                    <details class="details-det">
+                        <summary class="summary-sum">
+                            <p class="sum-p">Sort by</p>
+                            <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        </summary>
+                        <p>Down jackets (263)</p>
+                        <p>Quilted jackets (567)</p>
+                        <p>Pea coats and woolen jackets (141)</p>
+                        <p>Parkas (145)</p>
+                        <p>Between-seasons jackets (544)</p>
+                        <p>Fur jackets (225)</p>
+                        <p>Leather jackets (225)</p>
+                        <p>Overshirts (229)</p>
+                        <p>Field jackets (40)</p>
+                        <p>Blousons (159)</p>
+                        <p>rain jackets (64)</p>
+                        <p>Denim jackets (143)</p>
+                    </details>
+                </section>
+
+                <!-- brand section -->
+
+                <section class="brand-details">
+                    <details class="details-det">
+                        <summary class="summary-sum">
+                            <p class="sum-p">Brand</p>
+                            <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        </summary>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            MARCCAIN
+                        </div>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            JOOP
+                        </div>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            DRYKORN
+                        </div>
+                    </details>
+                </section>
+
+                <!-- color section -->
+
+                <section class="colorsection">
+                    <details class="details-det">
+                        <summary class="summary-sum">
+                            <p class="sum-p">Color</p>
+                            <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        </summary>
+                        <div class="color-grid">
+                            <div class="color-swatch" style="background-color: #ffffff;"></div>
+                            <div class="color-swatch" style="background-color: #e6d7b0;"></div>
+                            <div class="color-swatch" style="background-color: #d60000;"></div>
+                            <div class="color-swatch" style="background-color: #7b002c;"></div>
+                            <div class="color-swatch" style="background-color: #c300ff;"></div>
+                            <div class="color-swatch" style="background-color: #b9c3f2;"></div>
+                            <div class="color-swatch" style="background-color: #0047ff;"></div>
+                            <div class="color-swatch" style="background-color: #ffcc00;"></div>
+                            <div class="color-swatch" style="background-color: #00ff00;"></div>
+                            <div class="color-swatch" style="background-color: #4a7300;"></div>
+                            <div class="color-swatch" style="background-color: #5c3d00;"></div>
+                            <div class="color-swatch" style="background-color: #ffb2d3;"></div>
+
+                            <div class="color-swatch" style="background-color: #ffc400;"></div>
+                            <div class="color-swatch" style="background-color: #00e4e0;"></div>
+                            <div class="color-swatch" style="background-color: #003151;"></div>
+                            <div class="color-swatch" style="background-color: #4e0063;"></div>
+                            <div class="color-swatch" style="background-color: #6f004e;"></div>
+                            <div class="color-swatch" style="background-color: #e33227;"></div>
+                            <div class="color-swatch" style="background-color: #5e5e5e;"></div>
+                            <div class="color-swatch" style="background-color: #d5d5d5;"></div>
+                            <div class="color-swatch" style="background-color: #c8b79f;"></div>
+                            <div class="color-swatch" style="background-color: #966400;"></div>
+                        </div>
+                    </details>
+                </section>
+
+                <!-- size section -->
+                <section class="sizesection">
+                    <details class="details-det">
+                        <summary class="summary-sum">
+                            <p class="sum-p">Size</p>
+                            <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        </summary>
+                        <div class="size-options">
+                            <button>32</button>
+                            <button>34</button>
+                            <button>36</button>
+                            <button>38</button>
+                            <button>40</button>
+                            <button>42</button>
+                            <button>46</button>
+                            <button>One size</button>
+                        </div>
+                    </details>
+                </section>
+
+                <!-- price filter section -->
+                <section class="pricesection">
+                    <details class="details-det">
+                        <summary class="summary-sum">
+                            <p class="sum-p">Price</p>
+                            <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        </summary>
+                        <div class="price-range">
+                            <input type="range" id="minRange" min="0" max="2000" step="10" value="300">
+                            <input type="range" id="maxRange" min="0" max="2000" step="10" value="1000">
+                            <div class="slider-track" id="sliderTrack"></div>
+                            <div class="range-values">
+                                <span id="minValue">300 USD</span>
+                                <span id="maxValue">1000 USD</span>
+                            </div>
+                        </div>
+                    </details>
+                </section>
+
+                <!-- Material section -->
+                <section class="material-details">
+                    <details class="details-det">
+                        <summary class="summary-sum">
+                            <p class="sum-p">Material</p>
+                            <img src="./images/Icon ionic-ios-arrow-back.svg" alt="">
+                        </summary>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            100% cotton
+                        </div>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            Cashmere
+                        </div>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            Nylon
+                        </div>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            Knit
+                        </div>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            Velvet
+                        </div>
+                        <div class="brd">
+                            <input type="checkbox" name="" id="">
+                            Tulle
+                        </div>
+                    </details>
+                </section>
+            </section>
+        </section>
+
+        <section class="section2">
+            <!-- home section -->
+            <section class="jackets-home">
+                <div class="jackets-home-container">
+                    <h2>Women's Jackets</h2>
+                </div>
+            </section>
+
+            <!-- client section -->
+            <section id="clients" class="clients">
+                <div class="clients-container ccnn">
+                    <img src="./images/Image 22.png" alt="client 1">
+                    <img src="./images/Image 23.png" alt="client 2">
+                    <img src="./images/Image 24.png" alt="client 3">
+                </div>
+            </section>
+
+            <!-- items section -->
+            <section class="items-section-jackets">
+                <div class="items-section-jackets-container">
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 8.png" alt="9">
+                            <p class="new">New</p>
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+
+                        <div class="data-of-item">
+
+                            <div class="sscc">
+                                <img src="./images/Icon feather-heart.svg" alt="heart">
+                                <img src="./images/Icon feather-thumbs-up.png" alt="like">
+                            </div>
+
+                            <div class="ssccss">
+                                <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                                <p class="price">510 USD</p>
+                            </div>
+
+                            <div class="cscs">
+                                <div class="cscs-color">
+                                    <p>COLOR</p>
+                                    <div class="color-grid">
+                                        <div class="color-swatch" style="background-color: #ffffff;"></div>
+                                        <div class="color-swatch" style="background-color: #e6d7b0;"></div>
+                                        <div class="color-swatch" style="background-color: black;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="cscs-size">
+                                    <p>SIZE</p>
+                                    <div class="cscs-ss">
+                                        <span>34</span>
+                                        <span>36</span>
+                                        <span>38</span>
+                                        <span>40</span>
+                                        <span>42</span>
+                                        <span>46</span>
+                                        <span>48</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="quantitysscc">
+
+                                <div class="quantity-wrapper">
+                                    <button class="qty-btn">-</button>
+                                    <span class="qty">1</span>
+                                    <button class="qty-btn">+</button>
+                                    <button class="bag-btn">
+                                        <span class="bag-icon"><img src="./images/noun-bag-1665853.png" alt=""></span>
+                                    </button>
+                                </div>
+                                <button class="add-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 10.png" alt="10">
+                            <p class="new">Sale</p>
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+                    </div>
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 11.png" alt="11">
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+                    </div>
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 12.png" alt="12">
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+                    </div>
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 13.png" alt="13">
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+                    </div>
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 14.png" alt="14">
+                            <p class="new">New</p>
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+                    </div>
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 15.png" alt="15">
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+                    </div>
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 16.png" alt="16">
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+                    </div>
+
+                    <div class="container-content">
+                        <div class="contentimg">
+                            <img src="./images/Mask Group 17.png" alt="17">
+                        </div>
+                        <div class="contentdescription">
+                            <p class="text">MARC KAIN <br> BLAZER IN NEW WOOL BLEND</p>
+                            <p class="price">510 USD</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer" style="margin-top: 50px;">
+        <div class="footer-container">
+            <!-- Left Section -->
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">COLLECTIONS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">MY ACCOUNT</a></li>
+                    </ul>
+                </div>
+                <ul>
+                    <li><a href="#">GIFT CARD</a></li>
+                    <li><a href="#">STORE LOCATOR</a></li>
+                    <li><a href="#">COOKIES POLICY</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">TERMS & CONDITIONS</a></li>
+                    <li><a href="#">RETURNS, REFUNDS & STORE CREDITS</a></li>
+                    <li><a href="#">REFERRERS TRACKING & COMMISSION</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Section -->
+            <div class="footer-subscribe">
+                <h2>Subscribe</h2>
+                <form class="subscribe-form">
+                    <label for="email">EMAIL</label>
+                    <div class="input-wrapper">
+                        <input type="email" id="email" placeholder="">
+                        <button type="submit">→</button>
+                    </div>
+                </form>
+                <div class="socialmedia-and-copyright">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <p class="copyright">ALL RIGHTS RESERVED.2022<br>BY KOEIN</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="shoppingBag" id="shoppingBag">
+        <div class="triangle-up"></div>
+        <div class="shopping-bag-container">
+            <div class="shopping-checkout-title">
+                <p class="title">Your shopping bag(2)</p>
+                <img id="closeShoppingBag" src="./images/Icon ionic-ios-close.svg" alt="Close">
+            </div>
+
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./images/9658607730718.png" alt="Blazer">
+                </div>
+                <div class="product-details">
+                    <h3>MARC KAIN</h3>
+                    <p>BLAZER IN NEW WOOL BLEND</p>
+                    <p class="se3er">810 USD</p>
+
+                    <div class="options">
+                        <div class="option">
+                            <span>COLOR</span>
+                            <div class="color-box"></div>
+                        </div>
+                        <div class="option">
+                            <span>SIZE</span>
+                            <span class="size">34</span>
+                        </div>
+                    </div>
+
+                    <div class="controls">
+                        <div class="quantity wrp">
+                            <button class="qty-btn">-</button>
+                            <span class="qty">1</span>
+                            <button class="qty-btn">+</button>
+                        </div>
+                        <button class="delete-btn">
+                            <img src="./images/Icon material-delete.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./images/9658607730718.png" alt="Blazer">
+                </div>
+                <div class="product-details">
+                    <h3>MARC KAIN</h3>
+                    <p>BLAZER IN NEW WOOL BLEND</p>
+                    <p class="se3er">810 USD</p>
+
+                    <div class="options">
+                        <div class="option">
+                            <span>COLOR</span>
+                            <div class="color-box"></div>
+                        </div>
+                        <div class="option">
+                            <span>SIZE</span>
+                            <span class="size">34</span>
+                        </div>
+                    </div>
+
+                    <div class="controls">
+                        <div class="quantity wrp">
+                            <button class="qty-btn">-</button>
+                            <span class="qty">1</span>
+                            <button class="qty-btn">+</button>
+                        </div>
+                        <button class="delete-btn">
+                            <img src="./images/Icon material-delete.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="totalprice">
+            <p class="total">Total</p>
+            <p class="prc">1200 USD</p>
+        </div>
+
+        <button class="checkout">CHECKOUT</button>
+
+    </section>
+
+    <section class="logged" id="logged">
+        <!-- Checkout Modal -->
+        <div id="checkoutModal" class="checkout-modal">
+            <div class="modal-container">
+                <!-- Left Pane: Sign In -->
+                <div class="modal-left">
+                    <div class="shopping-checkout-title">
+                        <h2>Sign in</h2>
+                        <img id="closeLogged" src="./images/Icon ionic-ios-close.svg" alt="Close">
+                    </div>
+
+                    <label>Email</label>
+                    <input type="email" class="input-field" placeholder="Email" />
+                    <label>Password</label>
+                    <div class="password-wrapper">
+                        <input type="password" class="input-field" placeholder="Password" />
+                        <span class="eye-icon"><img src="./images/Icon ionic-md-eye-off.png" alt=""></span>
+                    </div>
+                    <a href="#" class="forgot">Forgot your password?</a>
+                    <button class="primary-btn">SIGN IN</button>
+
+                    <p class="or">or</p>
+
+                    <div class="social-buttons">
+                        <button class="google-btn"> <img src="./images/Icon awesome-google.svg" alt=""></button>
+                        <button class="facebook-btn"><img src="./images/Icon awesome-facebook-f.svg" alt=""></button>
+                    </div>
+                </div>
+
+                <!-- Right Pane: Sign Up / Guest -->
+                <div class="modal-right">
+                    <div class="createaccount">
+                        <span class="close-modal">&times;</span>
+                        <h2>Create an account</h2>
+                        <button class="primary-btn light" id="signUp">SIGN UP</button>
+                    </div>
+                    <div class="guest">
+                        <h2>Checkout as a guest</h2>
+                        <label>Email</label>
+                        <input type="email" class="input-field dark" placeholder="Email" />
+                        <button class="primary-btn light">CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- create account section -->
+    <section class="signup-section">
+        <div class="signup-modal">
+            <span class="signup-close">&times;</span>
+            <h2>Create an account</h2>
+
+            <form class="signup-form">
+                <div class="form-row">
+                    <div class="form-content">
+                        <label>First name</label>
+                        <input type="text" required />
+                    </div>
+                    <div class="form-content">
+                        <label>Last name</label>
+                        <input type="text" required />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-content">
+                        <label for="">Phone number</label>
+                        <div class="phone-block">
+                            <div class="flag-icon">
+                                <img src="https://flagcdn.com/w40/lb.png" alt="Lebanon Flag" />
+                            </div>
+                            <input type="tel" required />
+                            <a href="#" class="verify-link">Verify</a>
+                        </div>
+                    </div>
+                    <div class="form-content">
+                        <label for="">Email</label>
+                        <input type="email" required />
+                    </div>
+                </div>
+
+                <div class="verification-row">
+                    <label>Enter The Code Sent To You By SMS</label>
+                    <div class="code-inputs">
+                        <input maxlength="1" />
+                        <input maxlength="1" />
+                        <input maxlength="1" />
+                        <input maxlength="1" />
+                        <img src="./images/Icon awesome-check-circle.png" alt="">
+                        <div class="countdown">00:56</div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-content">
+                        <label for="">Passowrd</label>
+                        <input type="password" name="" id="" required>
+                    </div>
+                    <div class="form-content">
+                        <label for="">Confirm Passowrd</label>
+                        <input type="password" name="" id="" required>
+                    </div>
+                </div>
+
+                <div class="checkboxes">
+                    <label><input type="checkbox" /> I Would Like To Receive Product Updates, News And Promotional
+                        Emails From AL BON</label>
+                    <label><input type="checkbox" required /> By Signing Up, You Agree To Our <a href="#"
+                            class="term">Terms & Conditions</a></label>
+                </div>
+
+                <button type="submit" class="signup-button">SIGN UP</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- filter button -->
+    <section class="filter-btn" id="filterbtn">
+        <img src="./images/Group 60.svg" alt="">
+    </section>
+
+
+</body>
+
+</html>
